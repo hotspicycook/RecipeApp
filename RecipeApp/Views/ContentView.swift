@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var model:RecipeModel
     
-    @ObservedObject var model = RecipeModel()
+   
     var body: some View {
         
         
