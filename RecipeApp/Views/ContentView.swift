@@ -14,7 +14,7 @@ struct ContentView: View {
         
         
         
-        NavigationView (  )  {
+        NavigationView ()  {
             List(model.recipes) { r in
                 NavigationLink(
                     destination: RecipeDetail(recipe:r),

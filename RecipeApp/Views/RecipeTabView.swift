@@ -14,6 +14,7 @@ struct RecipeTabView: View {
                 .tabItem {
                     VStack{
                         Image(systemName: "star")
+                        Text("Start Screen")
                     }
                 }
             ContentView()
